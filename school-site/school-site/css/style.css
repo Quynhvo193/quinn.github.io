@@ -133,40 +133,79 @@ figcaption {
 /* Link Styling */
 
 a {
-    
+    outline: none;
 }
 
 a:link,
-a:visited {}
+a:visited {
+    color:#33658A;
+}
 
 a:focus,
-a:hover {}
+a:hover {
+    text-decoration: none;
+}
 
 
 /* List Styling */
 
-ul {}
+ul {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+    list-style: square;
+}
 
-ol {}
+ol {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+    list-style: 'lowercase letter';
+}
 
-.long-list a:hover {}
+.long-list a:hover {
+    text-transform: uppercase;
+}
 
 
 /* Navigation Menu */
 
-nav {}
+nav {
+    padding-left: 0;
+    margin-top: .25rem;
+}
 
-nav a {}
+nav a {
+    outline: none;
+    display: inline-block;
+    width: 100%;
+    line-height: 3;
+    text-align: center;
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+    border-width: .0625rem;
+    color: #33658A;
+}
 
 nav a:focus,
-nav a:hover {}
+nav a:hover {
+    color: #fff;
+    background-color: #33658A;
+}
 
-nav a:active {}
+nav a:active {
+    color: #fff;
+    background-color: #000;
+}
 
 
 /* Footer Styles */
 
-footer {}
+footer {
+    text-align: center;
+}
 
 
 
